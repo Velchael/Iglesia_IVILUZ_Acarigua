@@ -5,7 +5,8 @@ body > * {
 }
 
 body {
-  background-color:rgb(206, 212, 211);
+  /*:rgb(254, 255, 255);*/
+  background-color:rgb(250, 250, 250);
   min-height: 100vh;
   display: grid;
   grid-template-rows: 60px 500px 390px 180px 240px 570px 700px;
@@ -19,7 +20,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color:rgb(0, 113, 128);
+  background-color:rgb(1, 107, 159);
   padding: 20px 120px;
   
 }
@@ -95,12 +96,12 @@ body {
 
 .lateral {
   align-items: flex-start;
-  background-color: darkgray;
+  background-color:  rgb(180, 180, 180);
   grid-column: 1 / 5;
 }
 
 .publicidade-lateral {
-  background-color: rgb(117, 189, 247);
+  background-color: rgb(180, 180, 180);
   grid-column: 1 / 5;
 }
 
@@ -110,7 +111,7 @@ body {
 }
 
 .rodape {
-  background-color: rgb(0, 113, 128);
+  background-color: rgb(1, 107, 159);
   grid-column: 1 / 5;
 }
 
@@ -170,14 +171,14 @@ img {
 .card {
   height: 450px;
   width: 225px;
-  border-radius: 4px;
+  border-radius: 7px;
   background-color: rgb(255 255 255);
-  box-shadow: 0 1px 2px 0 rgba(0 0 0 / 12%);
+  box-shadow: 0 7px 4px 0 rgba(0 0 0 / 12%);
   overflow: hidden;
   font-family: sans-serif;
 }
 .card:hover {
-  box-shadow: 0 0 1px 1px rgba(0 0 0 / 7%), 0 10px 15px 0 rgba(0 0 0 / 10%);
+  box-shadow: 0 0 3px 3px rgba(0 0 0 / 7%), 0 10px 15px 0 rgba(0 0 0 / 10%);
 }
 
 .card__imagem {
@@ -199,7 +200,7 @@ img {
 
 .card__titulo {
   text-align: center;
-  background-color: rgb(227, 53, 250);
+  background-color: rgb(146, 147, 27);
   border-radius: 3px;
   color: rgb(255 255 255);
   text-transform: uppercase;
@@ -239,7 +240,7 @@ img {
 .card__descricao {
   font-size: 12px;
   line-height: 18px;
-  color: rgb(0 166 80);
+  color:  rgb(1, 107, 159);
 }
 
 .buttonrodapie {
@@ -361,7 +362,7 @@ img {
 }
 
 .form button {
-    background-color: #6C63FF;
+    background-color:  rgb(180, 180, 180);
     border-radius: 5px;
     color: #fff;
     padding: 15px;
@@ -375,7 +376,7 @@ img {
 }
 
 .form button:hover {
-    background-color: #584ff5;
+    background-color: #4b4a4c;
     transition: 0.3s;
 }
 
