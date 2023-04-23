@@ -141,11 +141,15 @@ body {
 }
 
 .botao__primario {
+ 
   background-color: transparent;
   color: #101011;
   border-color: #070707;
-}
 
+}
+/*.botao-subir {
+ margin:0 auto ;
+}*/
 .botao__primario:hover {
   background-color: rgb(252, 253, 253);
   border-width: 3px;
